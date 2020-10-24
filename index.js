@@ -1,4 +1,4 @@
-const arrayChunk = (array, elPerChunk) => {
+const arrayChunk = (arr, elPerChunk) => {
     const result = [];
     let chunk = [];
     for (let i = 0; i < arr.length; i++) {
